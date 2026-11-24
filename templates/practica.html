@@ -1,0 +1,13 @@
+<style>
+  .fila { display: flex; gap: 6px; }
+  .fila div { background: #F3E8FD; border: 2px solid #7B3FE4; padding: 8px; }
+  .a { flex: 1; }   /* toma 1 parte del espacio libre */
+  .b { flex: 2; }   /* toma 2 partes: el doble que .a */
+  /* .c no tiene flex: solo mide su contenido */
+</style>
+
+<div class="fila">
+  <div class="a">flex: 1</div>
+  <div class="b">flex: 2</div>
+  <div class="c">sin flex</div>
+</div>
